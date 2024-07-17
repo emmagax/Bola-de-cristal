@@ -1,0 +1,64 @@
+body {
+    background-color: #ffceff;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Kalnia Glaze", serif;
+    margin-bottom: 8rem;
+
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+     justify-content: center;
+}
+.message {
+    margin-bottom: 3.5rem;
+    color: #ff0aff;
+}
+
+img {
+    width: 200px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.guess {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: "Kalnia Glaze", serif;
+}
+
+
+.btn {
+    background-color: transparent;
+    border-color: #ff0aff;
+    border-width: 1px;
+    color: #ff0aff;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-width: 1px;
+    color: aliceblue;
+    
+}
